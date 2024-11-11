@@ -1,5 +1,5 @@
 # Masterclass Landing Page 🎙️
-Este repositorio contiene una lading page desarrollada como proyecto final del curso Web Responsive Design de freeCodeCamp. La estructura y el diseño se han realizado utilizando solo HTML y CSS.
+Este repositorio contiene una lading page desarrollada como proyecto final del curso Responsive Web Design de freeCodeCamp. La estructura y el diseño se han realizado utilizando solo HTML y CSS.
 
 ## Descripción
 La página permite a los usuarios informarse  y registrarse a una masterclass. La interfaz se ha diseñado de manera sencilla y profesional para que pueda integrarse fácilmente en otros sitios similares.
