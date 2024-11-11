@@ -14,7 +14,7 @@ Este proyecto tiene como objetivo practicar y demostrar habilidades en HTML y CS
 Para ver la página en funcionamiento, simplemente abre el archivo index.html en cualquier navegador.
 
 ## Mejoras Futuras
-Validación del formulario en el frontend: añadir JavaScript para validar el campo antes de enviar el formulario. || Integración con backend: conectar el formulario a un servidor para manejar el envío de datos y responder a los usuarios.
+Diseño responsivo: optimizar el menú de navegación con Javascript para dispositivos móviles y diferentes tamaños de pantalla. || Validación del formulario en el frontend: añadir JavaScript para validar el campo antes de enviar el formulario. || Integración con backend: conectar el formulario a un servidor para manejar el envío de datos y responder a los usuarios.
 
 ## Licencia
 La temática de este proyecto es de freeCodeCamp. El diseño y textos son una plantila de una página llamada Ghost. Se prohíbe la comercialización y distribución de los archivos.
