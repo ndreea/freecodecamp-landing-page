@@ -1,0 +1,379 @@
+
+/* ESTILOS GENERALES */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: poppins, sans-serif;
+    color: #1d1d1b;
+}
+
+
+/*---------------------------------------------------*/
+
+
+/* ESTILOS MENÚ DE NAVEGACIÓN */
+
+/* Contenedor principal */
+header{
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 0;
+}
+
+/* Menú de navegación */
+#navbar{
+    padding: 20px 30px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+#navbar p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Ul de links y Ul de crear cuenta */
+.nav-links{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+/* Enlaces generales */
+#navbar li a{
+    display: block;
+    text-decoration: none;
+    margin-left: 30px;
+    color: #1d1d1b;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+#navbar li a:hover{
+    text-decoration: underline;
+}
+
+/* Suscribirse */
+#navbar .subscribe{
+    background-color: orangered;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+
+/*---------------------------------------------------*/
+
+
+/* ESTILOS GLOBALES */
+
+.header, .description, .masterclass{
+    height: 100vh;
+}
+
+.header, .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*---------------------------------------------------*/
+
+
+/* ESTILOS HEADER */
+
+.header{
+    background-color: #1d1d1b;
+}
+
+.header h1, .header p{
+    color: #fff;
+}
+
+.header h1{
+    font-size: 5rem;
+    text-align: center;
+    line-height: 1.3em;
+    width: 80%;
+}
+
+.header p{
+    font-size: 1.2rem;
+    margin: 10px 0 30px 0;
+}
+
+
+/*---------------------------------------------------*/
+
+
+/* ESTILOS DESCRIPCIÓN */
+
+.description{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.description p, .description q{
+    font-size: 1.4em;
+    line-height: 1.7em;
+    margin-bottom: 3em;
+}
+
+
+/*---------------------------------------------------*/
+
+
+/* ESTILOS MASTERCLASS */
+
+.masterclass{
+    background-color: rgb(253, 227, 231);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.masterclass img{
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.masterclass div{
+    width: 40%;
+}
+
+.masterclass div h2{
+    font-size: 4rem;
+}
+
+.masterclass div p{
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    margin-top: 0.5em;
+}
+
+.masterclass div a{
+    font-weight: bold;
+    color: #1d1d1b;
+}
+
+/* Formulario */
+.masterclass div #form{
+    padding: 20px 0;
+    width: 100%;
+}
+
+.masterclass div #form #email,
+.masterclass div #form #submit{
+    border: none;
+    border-radius: 3px;
+    font-size: 1.1rem;
+}
+
+.masterclass div #form #email{
+    padding: 15px;
+    width: 50%  
+}
+
+.masterclass div #form #submit{
+    padding: 15px 30px;
+    background-color: #1d1d1b;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/*---------------------------------------------------*/
+
+
+/* ESTILOS FOOTER */
+
+.footer{
+    padding: 20px 30px 0 30px;
+    background-color: #1d1d1b;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p{
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.btn-footer{
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer ul{
+    display: flex;
+}
+
+.footer li{
+    list-style: none;
+    text-align: center;
+}
+
+/* Enlaces */
+.footer li .footer-link{
+    display: block;
+    text-decoration: none;
+    margin-left: 30px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.footer li .footer-link:hover{
+    text-decoration: underline;
+}
+
+
+/*---------------------------------------------------*/
+
+
+/* RESPONSIVE */
+
+/* Ordenador */
+@media (max-width: 1800px) {
+
+    .masterclass div h2{
+        line-height: 4rem;
+    }
+}
+
+/* Ordenador */
+@media (max-width: 1100px) {
+
+    .masterclass{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .masterclass div h2{
+        font-size: 3.5rem;
+    }
+
+    .masterclass img{
+        width: 90%;
+        height: 40%;
+    }
+
+    .masterclass div{
+        width: 90%;
+        margin-top: 50px;
+    }
+}
+
+/* Ordenador - Tablet */
+@media (max-width: 900px) {
+
+    #navbar{
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header h1{
+        font-size: 4.5rem;
+        line-height: 1.3em;
+    }
+
+    .description p, .description q{
+        font-size: 1.3em;
+        line-height: 1.5em;
+    }
+
+    .footer{
+        padding: 20px 0;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer ul{
+        margin: 10px 0;
+    }
+}
+
+/* Tablet */
+@media (max-width: 670px){
+
+    #navbar{
+        padding: 20px 0;
+    }
+
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: visible;
+    }
+
+    #navbar li{
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    #navbar li a{
+        margin-left: 0;
+    }
+
+    .header h1{
+        font-size: 4rem;
+        line-height: 1.3em;
+    }
+
+    .masterclass div h2{
+        font-size: 3rem;
+        font-size: 2.5rem;
+    }
+
+    .masterclass div #form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .masterclass div #form #email{
+        width: 94%;
+    }
+
+    .masterclass div #form #submit{
+       margin-top: 10px;
+       width: 100%;
+    }
+}
+
